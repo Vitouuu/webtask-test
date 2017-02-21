@@ -15,8 +15,8 @@
 
 module.exports = function (context) {
   
-  
-  cb(context);
+  console.log('Context:');
+  console.log(context);
 }
 
   // request({ url: url, method: 'POST' }, function (err, res, body) {
