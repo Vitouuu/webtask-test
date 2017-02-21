@@ -13,7 +13,8 @@ var request = require('request');
 
 module.exports = function (context, callback) {
 
-  console.log(context);
+  //console.log(context);
+  console.log('Something');
 
   // request({ url: url, method: 'POST' }, function (err, res, body) {
   //   if (err) console.log('Error on request POST: ', err);
