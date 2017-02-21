@@ -1,4 +1,4 @@
-var request = require('request');
+// var request = require('request');
 
 /**
  * receive a webhook from github's Pull Request event and trigger
@@ -11,13 +11,15 @@ var request = require('request');
  *
  */
 
-module.exports = function (context, callback) {
+// module.exports = function (context, callback) {
 
+module.exports = function (context) {
+  console.log('Context:');
   console.log(context);
+}
 
   // request({ url: url, method: 'POST' }, function (err, res, body) {
   //   if (err) console.log('Error on request POST: ', err);
   //   return callback(err, body);
   // });
-
-}
+//https://wt-078625e202680775f7fdb2e7e4d9b99a-0.run.webtask.io/TT
