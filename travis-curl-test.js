@@ -14,7 +14,6 @@
 // module.exports = function (context, callback) {
 
 module.exports = function (context) {
-  
   console.log('Context:');
   console.log(context);
 }
