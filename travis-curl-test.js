@@ -13,8 +13,8 @@
 
 // module.exports = function (context, callback) {
 
-module.exports = function (context, cb) {
-  cb(null, context);
+module.exports = function (context) {
+  cb(context);
 }
 
   // request({ url: url, method: 'POST' }, function (err, res, body) {
