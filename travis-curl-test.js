@@ -13,8 +13,8 @@
 
 // module.exports = function (context, callback) {
 
-module.exports = function (cb) {
-  cb(null, 'hello webtasks!');
+module.exports = function (context, callback) {
+  cb(null, context);
 }
 
   // request({ url: url, method: 'POST' }, function (err, res, body) {
@@ -22,5 +22,3 @@ module.exports = function (cb) {
   //   return callback(err, body);
   // });
 //https://wt-078625e202680775f7fdb2e7e4d9b99a-0.run.webtask.io/TT
-// }
-
