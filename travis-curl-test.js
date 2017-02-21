@@ -11,10 +11,11 @@
  *
  */
 
-module.exports = function (context, callback) {
+// module.exports = function (context, callback) {
 
-  //console.log(context);
-  console.log('Something');
+module.exports = function (cb) {
+  cb(null, 'hello webtasks!');
+}
 
   // request({ url: url, method: 'POST' }, function (err, res, body) {
   //   if (err) console.log('Error on request POST: ', err);
