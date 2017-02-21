@@ -13,7 +13,7 @@
 
 // module.exports = function (context, callback) {
 
-module.exports = function (context, callback) {
+module.exports = function (context, cb) {
   cb(null, context);
 }
 
